@@ -18,7 +18,7 @@ const Header = ({
       <div className="header-wrapper">
         <FileUploader ownerId={userId} accountId={accountId} />
         <form
-          action={async () => {;
+          action={async () => {
             "use server";
 
             await signOutUser();
